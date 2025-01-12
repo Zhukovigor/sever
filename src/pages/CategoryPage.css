@@ -1,0 +1,108 @@
+/* CategoryPage.css */
+
+/* Общие стили для страницы категорий */
+.category-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.category-page-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Стили для обертки объявлений */
+.ads-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Стили для карточек объявлений */
+.category-ad-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    transition: box-shadow 0.3s;
+}
+
+.category-ad-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для изображений в карточках */
+.ad-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Стили для текста, когда нет изображения */
+.no-image {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+.no-image-text {
+    color: #888;
+}
+
+/* Стили для текста в карточке с ценой */
+.ad-price {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Изменяем позицию сердечка */
+.favorite-heart {
+    position: absolute;
+    top: 190px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Полукруг под сердечком */
+.heart-overlay {
+    position: absolute;
+    bottom: 35px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ad-title {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+
+.ad-details {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Стили для центрирования объявлений */
+.ant-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,67 @@
+/* 
+  AppHeader.css
+  Этот файл содержит стили для компонента AppHeader, который включает логотип, строку поиска, кнопки и меню.
+*/
+
+.app-header {
+  display: flex;
+  justify-content: space-between; /* Распределение элементов по всей ширине */
+  align-items: center; /* Выравнивание элементов по вертикали по центру */
+  background-color: #fff; /* Белый фон */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Тень для создания эффекта плавающего блока */
+  padding: 0 20px; /* Внутренние отступы по горизонтали */
+}
+
+.app-header .logo {
+  font-size: 24px; /* Размер шрифта логотипа */
+  font-weight: bold; /* Жирный шрифт */
+  color: #1890ff; /* Цвет текста логотипа */
+  margin-right: 2px; /* Отступ справа от логотипа */
+}
+
+.app-header .categories-button {
+  margin-right: 10px; /* Отступ от кнопки "Все категории" к поисковой строке */
+  font-size: 16px; /* Размер шрифта кнопки */
+  color: #1890ff; /* Цвет текста кнопки */
+  background: transparent; /* Прозрачный фон кнопки */
+  border: none; /* Без границ */
+  cursor: pointer; /* Указатель мыши в виде руки при наведении */
+}
+
+.app-header .categories-button:hover {
+  color: #40a9ff; /* Цвет текста кнопки при наведении */
+}
+
+.app-header .ant-input {
+  max-width: 700x; /* Увеличиваем максимальную ширину поля ввода до 700px */
+  width: 100%; /* Поле ввода занимает всю доступную ширину */
+}
+
+.app-header .ant-btn {
+  font-size: 14px; /* Размер шрифта кнопок */
+}
+
+.app-header .ant-space {
+  margin-left: auto; /* Отодвигаем элементы управления (иконки и кнопки) в конец */
+}
+
+.logo-container {
+  display: flex; /* Используем flexbox для контейнера логотипа */
+  align-items: center; /* Выравнивание элементов по вертикали по центру */
+}
+
+.logo-image {
+  width: 60px; /* Ширина логотипа */
+  height: auto; /* Автоматическое изменение высоты пропорционально ширине */
+  margin-right: 10px; /* Отступ между логотипом и текстом */
+}
+.search-button {
+  flex-shrink: 0;
+  width: 12px; /* Установим ширину кнопки поиска */
+
+  .categories-button {
+    color: #fff;
+    padding: 0 1px; /* Уменьшаем отступы внутри кнопки */
+    font-size: 1px; /* Уменьшаем размер шрифта */
+  }
+}

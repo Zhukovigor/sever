@@ -1,0 +1,70 @@
+/* src/App.css */
+.app-header {
+  background-color: #fff;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.categories-button {
+  margin-left: 20px;
+}
+
+input {
+  max-width: 500px;
+  margin-right: 20px;
+}
+
+/* Ограничение ширины всей страницы */
+body {
+  max-width: 1440px; /* Максимальная ширина страницы */
+  margin: 0 auto; /* Центрирование */
+  padding: 0 20px; /* Отступы по бокам */
+}
+
+@media (max-width: 1440px) {
+  body {
+    max-width: 100%; /* Для экранов меньше 1440px - ширина на 100% */
+  }
+}
+
+/* Адаптивность для планшетов */
+@media (max-width: 1024px) {
+  .app-header {
+    padding: 0 15px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  input {
+    max-width: 400px;
+  }
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 600px) {
+  .app-header {
+    padding: 0 10px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  input {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .categories-button {
+    font-size: 14px;
+  }
+}

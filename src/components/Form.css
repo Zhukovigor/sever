@@ -1,0 +1,90 @@
+/* Form.css */
+
+/* Общий контейнер для формы */
+.form-container {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    flex-direction: column; /* Размещение элементов по вертикали */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Легкая тень для создания объема */
+    max-width: 400px; /* Максимальная ширина контейнера */
+    width: 100%; /* Контейнер занимает всю доступную ширину */
+    margin: 20px;
+}
+
+/* Заголовок формы */
+.form-header {
+    display: flex;
+    justify-content: center; /* Центрирование заголовка */
+    align-items: center; /* Вертикальное выравнивание */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+/* Стили для формы */
+.form {
+    display: flex; /* Flexbox для формы */
+    flex-direction: column; /* Размещение элементов по вертикали */
+    width: 100%; /* Форма занимает всю доступную ширину */
+}
+
+/* Метки для полей ввода */
+.form label {
+    margin-bottom: 5px; /* Отступ снизу */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+/* Поля ввода */
+.form input {
+    margin-bottom: 15px; /* Отступ снизу */
+    padding: 10px; /* Внутренние отступы */
+    border: 1px solid #ccc; /* Граница светло-серого цвета */
+    border-radius: 4px; /* Округлые углы */
+    font-size: 16px; /* Размер шрифта */
+}
+
+/* Чекбокс "Запомнить меня" */
+.form-remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Отступ снизу */
+}
+
+.form-remember-me label {
+    margin-left: 5px; /* Отступ слева от чекбокса до метки */
+}
+
+/* Кнопка отправки формы */
+.form button {
+    padding: 10px;
+    background-color: #28a745; /* Зеленый фон */
+    color: white; /* Белый текст */
+    border: none; /* Без границы */
+    border-radius: 4px; /* Округлые углы */
+    cursor: pointer; /* Указатель мыши при наведении */
+    font-size: 16px; /* Размер шрифта */
+}
+
+/* Стили кнопки при наведении */
+.form button:hover {
+    background-color: #218838; /* Темно-зеленый фон при наведении */
+}
+
+/* Стили для нижней части формы */
+.form-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; /* Отступ сверху */
+}
+
+/* Ссылка "Забыли пароль?" */
+.forgot-password-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+}

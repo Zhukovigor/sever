@@ -1,0 +1,13 @@
+[
+  { "id": 1, "name": "Транспорт", "icon": "/icons/checklist_8622715.png" },
+  { "id": 2, "name": "Недвижимость", "icon": "/icons/home_2398115.png" },
+  { "id": 3, "name": "Работа", "icon": "/icons/working-time_7819908.png" },
+  { "id": 4, "name": "Услуги", "icon": "/icons/text_15124661.png" },
+  { "id": 5, "name": "Личные вещи", "icon": "/icons/belongings_5692057.png" },
+  { "id": 6, "name": "Для дома и дачи", "icon": "/icons/garden-tools_4496300.png" },
+  { "id": 7, "name": "Запчасти и аксессуары", "icon": "/icons/settings_1180891.png" },
+  { "id": 8, "name": "Электроника", "icon": "/icons/connection_2345435.png" },
+  { "id": 9, "name": "Хобби и отдых", "icon": "/icons/color-palette_6619530.png" },
+  { "id": 10, "name": "Животные", "icon": "/icons/pets_3460335.png" },
+  { "id": 11, "name": "Бизнес и оборудование", "icon": "/icons/15760073.png" }
+]

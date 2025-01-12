@@ -1,0 +1,38 @@
+/* FavoritesPage.css */
+
+/* Стили для карточек объявлений */
+.ad-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Стили для текста, когда нет изображения */
+.no-image {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+.no-image-text {
+    color: #888;
+}
+
+/* Изменяем позицию сердечка */
+.favorite-heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Стили для иконки сердечка */
+.heart-icon {
+    color: red;
+    font-size: 24px;
+}

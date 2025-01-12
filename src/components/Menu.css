@@ -1,0 +1,38 @@
+.menu-container {
+  display: flex;
+  flex-wrap: wrap; /* Адаптивное размещение кнопок */
+  gap: 16px; /* Расстояние между кнопками */
+  padding: 14px;
+  margin-top: 20px; /* Отступ сверху */
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid hwb(224 66% 5%);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  overflow: hidden; /* Чтобы изображение не выходило за пределы кнопки */
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #ffffff;
+  transform: scale(1.05); /* Небольшое увеличение при наведении */
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  object-fit: cover; /* Изображение покрывает всю кнопку */
+  z-index: 0; /* Изображение находится на заднем плане */
+}
+
+.menu-text {
+  font-size: 14px;
+  font-weight: 500;
+  
+}
